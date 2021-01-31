@@ -36,7 +36,7 @@ while True:
     time.sleep(.5)
 ```
 ### Image
-[![LED Blink](/photos/LED_Blink_Preview)](circuit-python-/ledblink.mp4)
+[![LED Blink](/photos/LED_Blink_Preview.png)](photos/ledblink.mp4)
 ### Reflection
 This was very confusing and it is hard to make the code work on my board, I am not sure if I am doing this right. 
 My beagel term does not do the same thing as it shows in the video. I am not sure how to load an image of the work I have done. 
