@@ -84,7 +84,7 @@ when your hand is 35cm away from the ultorsoundic sencor then the light is green
 
 
 ### Image
-
+![distance sensor wiring](/photos/hc-sr04.jpg)
 
 
 
