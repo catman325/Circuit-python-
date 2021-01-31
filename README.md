@@ -57,7 +57,7 @@ When I opened my caret ap, it did not have the main.py file, not sure what I may
 ### Reflection
 
 
-## 
+## Circiut python LCD
 
 ### Description- 
 
@@ -72,11 +72,15 @@ When I opened my caret ap, it did not have the main.py file, not sure what I may
 ### Reflection
 
 
-## 
+## Circiut python distance sensor
 
 ### Description- 
+when your hand is 27.5cm away from the ultorsoundic sencor then the light is teal
+when your hand is 30cm away from the ultorsoundic sencor then the light is green\teal
+when your hand is 35cm away from the ultorsoundic sencor then the light is green
 
 ### Evidence
+
 
 
 ### Image
