@@ -114,7 +114,7 @@ while True:
 ### Evidence
 
 ### Image
-![distance sensor wiring](/photos/Ultrasonic-Sensor-Cirucit-Schematics-04.png)
+[![distance sensor wiring](/photos/Ultrasonic-Sensor-Cirucit-Schematics-04.png)](/photos/IMG_0079.MOV)
 
 ### Reflection
 I learrned that we needed make sure we had cases for all distances frorm the sensor or else the board would not work.
