@@ -2,7 +2,8 @@
 
 
 ---
-## Table of Contents
+# Table of Contents
+===================
 * [Table of Contents](#Table-of-Contents)
 * [Hello Circuit python](#Hello Circuit Python)
 * [Circuit python servo](#circuit python servo)
