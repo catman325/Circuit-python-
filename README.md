@@ -67,7 +67,7 @@ while True:
         time.sleep(0.05)
 ```        
 ### Image
-[![Servo](/photos/IMG_0083.png)](photos/IMG_0084.MOV)
+[![Servo](/photos/IMG_0083.jpg)](photos/IMG_0084.MOV)
 ### Reflection
 
 # Circuit python LCD
