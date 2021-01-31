@@ -5,13 +5,13 @@
 # Table of Contents
 ===================
 * [Table of Contents](#Table-of-Contents)
-* [Hello Circuit python](#Hello-Circuit-Python)
-* [Circuit python servo](#circuit python servo)
-* [circuit python LCD](#circuit python LCD)
-* [circuit python distance sensor](#circuit python distance sensor)
-* [circuit python photointerrupters](#circuit python photointerrupters)
-* [circuit python Classes, Object, Modues](#Classs, Objects, Modules)
-* [fancy LED](#fancy LED)
+* [Hello Circuit Python](#Hello-Circuit-Python)
+* [Circuit Python Servo](#circuit-python-servo)
+* [Circuit Python LCD](#circuit-python-LCD)
+* [Circuit Python Distance Sensor](#circuit-python-distance-sensor)
+* [Circuit Python Photointerrupters](#circuit-python-photointerrupters)
+* [Circuit Python Classes, Object, Modues](#Classs,-Objects,-Modules)
+* [Fancy LED](#fancy-LED)
 
 
 
