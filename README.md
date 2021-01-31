@@ -107,9 +107,9 @@ while True:
 # Circiut python distance sensor
 
 ### Description- 
-when your hand is 27.5cm away from the ultorsoundic sencor then the light is teal
-when your hand is 30cm away from the ultorsoundic sencor then the light is green\teal
-when your hand is 35cm away from the ultorsoundic sencor then the light is green
+* when your hand is 27.5cm away from the ultorsoundic sencor then the light is teal
+* when your hand is 30cm away from the ultorsoundic sencor then the light is green\teal
+* when your hand is 35cm away from the ultorsoundic sencor then the light is green
 
 ### Evidence
 
