@@ -42,7 +42,7 @@ while True:
 ### Reflection
 This was very confusing and it is hard to make the code work on my board, I am not sure if I am doing this right. 
 My beagel term does not do the same thing as it shows in the video. I am not sure how to load an image of the work I have done. 
-When I opened my caret ap, it did not have the main.py file, not sure what I may be oding rong. 
+When I opened my caret ap, it did not have the main.py file, not sure what I may be doing wrong. 
 
 
 # Circuit python servo
