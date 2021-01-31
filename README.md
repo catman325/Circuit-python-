@@ -44,7 +44,7 @@ When I opened my caret ap, it did not have the main.py file, not sure what I may
 
 # Circuit python servo
 
-### Description- 
+### Description 
 
 ### Evidence
 ```import time
@@ -70,7 +70,7 @@ while True:
 
 ### Reflection
 
-# Circiut python LCD
+# Circuit python LCD
 
 ### Description 
 
@@ -112,7 +112,7 @@ while True:
 ### Reflection
 
 
-# Circiut python distance sensor
+# Circuit python distance sensor
 
 ### Description 
 * when your hand is 27.5cm away from the ultorsoundic sencor then the light is teal
