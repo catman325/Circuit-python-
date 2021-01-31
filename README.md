@@ -25,14 +25,14 @@ Introduction to circuit python. uploading Caret and begel term and using the met
 import neopixel
 import time
 
-dot= neopixel.NeoPixel(board.NEOPIXEL,1)
+dot= neopixel.NeoPixel(board.NEOPIXEL,1) //define the neopixel location
 
 while True:
     print("Make it blue!")
-    dot.fill((0,0,255))
+    dot.fill((0,0,255)) // make neopixel blue
     time.sleep (.5)
     print("Make it yellow!")
-    dot.fill((255,255,0))
+    dot.fill((255,255,0)) // make neopixel yellow
     time.sleep(.5)
 ```
 ### Image
@@ -53,16 +53,16 @@ import pulseio
 from adafruit_motor import servo
  
 # create a PWMOut object on Pin A2.
-pwm = pulseio.PWMOut(board.A2, duty_cycle=2 ** 15, frequency=50)
+pwm = pulseio.PWMOut(board.A2, duty_cycle=2 ** 15, frequency=50) // define which pin the servo is connected to
  
 # Create a servo object, my_servo.
 my_servo = servo.Servo(pwm)
  
 while True:
-    for angle in range(0, 180, 10):  # 0 - 180 degrees, 5 degrees at a time.
+    for angle in range(0, 180, 10):  # 0 - 180 degrees, 10 degrees at a time.
         my_servo.angle = angle
         time.sleep(0.05)
-    for angle in range(180, 0, -10): # 180 - 0 degrees, 5 degrees at a time.
+    for angle in range(180, 0, -10): # 180 - 0 degrees, 10 degrees at a time.
         my_servo.angle = angle
         time.sleep(0.05)
 ```        
@@ -82,7 +82,7 @@ import analogio
 from lcd.lcd import LCD
 from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
 # some LCDs are 0x3f... some are 0x27.
-lcd = LCD(I2CPCF8574Interface(0x27), num_rows=2, num_cols=16)
+lcd = LCD(I2CPCF8574Interface(0x27), num_rows=2, num_cols=16) // define instance of lcd screen to use in project
 count = 0 # initialize count
 input1_touched = False
 input2_touched = False
