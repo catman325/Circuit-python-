@@ -12,6 +12,8 @@
 * [Circuit Python Photointerrupters](#circuit-python-photointerrupters)
 * [Circuit Python Classes, Object, Modues](#Classs,-Objects,-Modules)
 * [Fancy LED](#fancy-LED)
+* [PID Box](#PID-Box)
+* [Robot Arm](#Robot-Arm)
 
 # Hello Circuit Python
 
@@ -121,7 +123,16 @@ when your hand is 35cm away from the ultorsoundic sencor then the light is green
 
 # Classs, Objects, Modules 
 
-### Description- 
+### Description
+when your hand is 5cm away from the ultorsoundic sencor then the light is red 
+when your hand is 7.5cm away from the ultorsoundic sencor then the light is orange 
+when your hand is 10cm away from the ultorsoundic sencor then the light is pink
+when your hand is 15cm away from the ultorsoundic sencor then the light is purppple 
+when your hand is 20cm away from the ultorsoundic sencor then the light is blue
+when your hand is 25cm away from the ultorsoundic sencor then the light is medium blue
+when your hand is 27.5cm away from the ultorsoundic sencor then the light is teal
+when your hand is 30cm away from the ultorsoundic sencor then the light is green\teal
+when your hand is 35cm away from the ultorsoundic sencor then the light is green
 
 ### Evidence
 ```# you don't need an __init__ method, but it is common for stuff that runs at instantiaion
@@ -164,12 +175,93 @@ when your hand is 35cm away from the ultorsoundic sencor then the light is green
           self.led2.value = True
           self.led3.value = False
  ```
+### Image
+
+### Reflection
+I learrned that we needed make sure we had cases for all distances frorm the sensor or else the board would not work.
+
+# Fancy LED
+
+### Description
+first the 2 outer red lights turn on 
+then the middle red light turnn on 
+then the 2 outter redlights turn on
+then the middle red light turnn on 
+then the 2 outter redlights turn on
+then the middle red light turnn on 
+then the 2 outter redlights turn on
+then the middle red light turnn on 
+then the 2 outter redlights turn on
+then the middle red light turnn on 
+then the middle red light turnn on abd the 3 blue lights 
+then the middle red light turnn on abd the 3 blue lights 
+then the middle red light turnn on abd the 3 blue lights 
+then the middle red light turnn on abd the 3 blue lights 
+then the middle red light turnn on abd the 3 blue lights 
+then the red light on the right turns on 
+then the middle red light turns on 
+then the left red light turns on 
+then the red light on the right turns on 
+then the middle red light turns on 
+then the left red light turns on 
+then the red light on the right turns on 
+then the middle red light turns on 
+then the left red light turns on 
+then the red light on the right turns on 
+then the middle red light turns on 
+then the left red light turns on 
+then the red light on the right turns on 
+then the middle red light turns on 
+then the left red light turns on 
+then the 3 blue light and the red light on the left turn on
+then the midle blue light and the left red light turn on 
+then the 2 outer blue light and the left red light turn on 
+then the right blue light and the left red light turn on 
+then the left blue light and the left red light turn on 
+then the 2 inner blue lights and the right red light turns on 
+then the right blue light and the left red light turns on 
+then the 2 inner blue lights and the left red light turn on
+then the 2 outer bule lights and the left red light turs on 
+then all blue lights and the left red light turns on 
+then the right blur light and the left red light turns on 
+then the 2 outter blue light and the left red light turns on 
+then the left red light turns on 
+then the left blue light and the left red light turns on 
+then the middle blue light and the left red light turns on  
+then the left red light turns on
+then the 2 outer blue lights and the left red light turns on 
+then the left blue and the left red light turns on 
+### Evidence
+```from fancyLED import FancyLED
+import board
+
+fancy1 = FancyLED(board.D2,board.D3,board.D4)
+#fancy2 = FancyLED(board.D5,board.D6,board.D7)
+
+while True:
+    fancy1.alternate()
+    #fancy2.blink()
+    fancy1.chase()
+    #fancy2.sparkle()
+```
+
+
+### Image
+
+### Reflection
+It was really hard to code so i used google and it helped a lot. The wiring was also kinda hard so i used google to help me wire. 
+
+# PID Box
+
+### Description
+
+### Evidence
 
 ### Image
 
 ### Reflection
 
-# Fancy LED
+# Robot Arm
 
 ### Description
 
