@@ -161,15 +161,15 @@ I learrned that we needed make sure we had cases for all distances frorm the sen
 # Classs, Objects, Modules 
 
 ### Description
-when your hand is 5cm away from the ultorsoundic sencor then the light is red 
-when your hand is 7.5cm away from the ultorsoundic sencor then the light is orange 
-when your hand is 10cm away from the ultorsoundic sencor then the light is pink
-when your hand is 15cm away from the ultorsoundic sencor then the light is purppple 
-when your hand is 20cm away from the ultorsoundic sencor then the light is blue
-when your hand is 25cm away from the ultorsoundic sencor then the light is medium blue
-when your hand is 27.5cm away from the ultorsoundic sencor then the light is teal
-when your hand is 30cm away from the ultorsoundic sencor then the light is green\teal
-when your hand is 35cm away from the ultorsoundic sencor then the light is green
+* when your hand is 5cm away from the ultorsoundic sencor then the light is red 
+* when your hand is 7.5cm away from the ultorsoundic sencor then the light is orange 
+* when your hand is 10cm away from the ultorsoundic sencor then the light is pink
+* when your hand is 15cm away from the ultorsoundic sencor then the light is purppple 
+* when your hand is 20cm away from the ultorsoundic sencor then the light is blue
+* when your hand is 25cm away from the ultorsoundic sencor then the light is medium blue
+* when your hand is 27.5cm away from the ultorsoundic sencor then the light is teal
+* when your hand is 30cm away from the ultorsoundic sencor then the light is green\teal
+* when your hand is 35cm away from the ultorsoundic sencor then the light is green
 
 ### Evidence
 ```# you don't need an __init__ method, but it is common for stuff that runs at instantiaion
@@ -220,54 +220,55 @@ I learrned that we needed make sure we had cases for all distances frorm the sen
 # Fancy LED
 
 ### Description
-first the 2 outer red lights turn on 
-then the middle red light turnn on 
-then the 2 outter redlights turn on
-then the middle red light turnn on 
-then the 2 outter redlights turn on
-then the middle red light turnn on 
-then the 2 outter redlights turn on
-then the middle red light turnn on 
-then the 2 outter redlights turn on
-then the middle red light turnn on 
-then the middle red light turnn on abd the 3 blue lights 
-then the middle red light turnn on abd the 3 blue lights 
-then the middle red light turnn on abd the 3 blue lights 
-then the middle red light turnn on abd the 3 blue lights 
-then the middle red light turnn on abd the 3 blue lights 
-then the red light on the right turns on 
-then the middle red light turns on 
-then the left red light turns on 
-then the red light on the right turns on 
-then the middle red light turns on 
-then the left red light turns on 
-then the red light on the right turns on 
-then the middle red light turns on 
-then the left red light turns on 
-then the red light on the right turns on 
-then the middle red light turns on 
-then the left red light turns on 
-then the red light on the right turns on 
-then the middle red light turns on 
-then the left red light turns on 
-then the 3 blue light and the red light on the left turn on
-then the midle blue light and the left red light turn on 
-then the 2 outer blue light and the left red light turn on 
-then the right blue light and the left red light turn on 
-then the left blue light and the left red light turn on 
-then the 2 inner blue lights and the right red light turns on 
-then the right blue light and the left red light turns on 
-then the 2 inner blue lights and the left red light turn on
-then the 2 outer bule lights and the left red light turs on 
-then all blue lights and the left red light turns on 
-then the right blur light and the left red light turns on 
-then the 2 outter blue light and the left red light turns on 
-then the left red light turns on 
-then the left blue light and the left red light turns on 
-then the middle blue light and the left red light turns on  
-then the left red light turns on
-then the 2 outer blue lights and the left red light turns on 
-then the left blue and the left red light turns on 
+* first the 2 outer red lights turn on
+* then the middle red light turnn on
+* then the 2 outter redlights turn on
+* then the middle red light turnn on
+* then the 2 outter redlights turn on
+* then the middle red light turnn on
+* then the 2 outter redlights turn on
+* then the middle red light turnn on
+* then the 2 outter redlights turn on
+* then the middle red light turnn on
+* then the middle red light turnn on abd the 3 blue lights
+* then the middle red light turnn on abd the 3 blue lights
+* then the middle red light turnn on abd the 3 blue lights
+* then the middle red light turnn on abd the 3 blue lights
+* then the middle red light turnn on abd the 3 blue lights
+* then the red light on the right turns on
+* then the middle red light turns on
+* then the left red light turns on
+* then the red light on the right turns on
+* then the middle red light turns on
+* then the left red light turns on
+* then the red light on the right turns on
+* then the middle red light turns on
+* then the left red light turns on
+* then the red light on the right turns on
+* then the middle red light turns on
+* then the left red light turns on
+* then the red light on the right turns on
+* then the middle red light turns on
+* then the left red light turns on
+* then the 3 blue light and the red light on the left turn on
+* then the midle blue light and the left red light turn on
+* then the 2 outer blue light and the left red light turn on
+* then the right blue light and the left red light turn on
+* then the left blue light and the left red light turn on
+* then the 2 inner blue lights and the right red light turns on
+* then the right blue light and the left red light turns on
+* then the 2 inner blue lights and the left red light turn on
+* then the 2 outer bule lights and the left red light turs on
+* then all blue lights and the left red light turns on
+* then the right blur light and the left red light turns on
+* then the 2 outter blue light and the left red light turns on
+* then the left red light turns on
+* then the left blue light and the left red light turns on
+* then the middle blue light and the left red light turns on
+* then the left red light turns on
+* then the 2 outer blue lights and the left red light turns on
+* then the left blue and the left red light turns on
+
 ### Evidence
 ```from fancyLED import FancyLED
 import board
