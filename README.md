@@ -108,7 +108,7 @@ while True:
     lcd.clear()
 ```
 ### Image
-
+![LCD](/photos/IMG_0085.jpg)
 ### Reflection
 
 
