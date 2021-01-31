@@ -62,7 +62,7 @@ When I opened my caret ap, it did not have the main.py file, not sure what I may
 ### Description- 
 
 ### Evidence
-'''html
+```
 import time
 import board
 import analogio
@@ -93,7 +93,7 @@ while True:
     lcd.print(msg)
     time.sleep(1)
     lcd.clear()
-'''
+```
 ### Image
 
 
