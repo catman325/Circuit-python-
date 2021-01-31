@@ -45,7 +45,7 @@ When I opened my caret ap, it did not have the main.py file, not sure what I may
 # Circuit python servo
 
 ### Description 
-
+Make the servo turn 180 degrees one way and then go back
 ### Evidence
 ```import time
 import board
@@ -69,11 +69,11 @@ while True:
 ### Image
 [![Servo](/photos/IMG_0083.jpg)](photos/IMG_0084.MOV)
 ### Reflection
-
+updatng the rate of the servo turning made it overshoot the 180 degrees.
 # Circuit python LCD
 
 ### Description 
-
+Make LCD screen count up when one wire is touched and count down when the other wire is touched and make it show on the LCD
 ### Evidence
 ```
 import time
@@ -110,7 +110,7 @@ while True:
 ### Image
 ![LCD](/photos/IMG_0085.jpg)
 ### Reflection
-
+It was hard to get it to consistant values when touching the wires. the count would not update as expected.
 
 # Circuit python distance sensor
 
