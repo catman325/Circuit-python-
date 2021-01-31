@@ -3,7 +3,7 @@
 
 ---
 # Table of Contents
-===================
+
 * [Table of Contents](#Table-of-Contents)
 * [Hello Circuit Python](#Hello-Circuit-Python)
 * [Circuit Python Servo](#circuit-python-servo)
@@ -12,9 +12,6 @@
 * [Circuit Python Photointerrupters](#circuit-python-photointerrupters)
 * [Circuit Python Classes, Object, Modues](#Classs,-Objects,-Modules)
 * [Fancy LED](#fancy-LED)
-
-
-
 
 # Hello Circuit Python
 
@@ -46,7 +43,7 @@ My beagel term does not do the same thing as it shows in the video. I am not sur
 When I opened my caret ap, it did not have the main.py file, not sure what I may be oding rong. 
 
 
-## Circuit python servo
+# Circuit python servo
 
 ### Description- 
 
@@ -169,4 +166,17 @@ when your hand is 35cm away from the ultorsoundic sencor then the light is green
  ```
 
 ### Image
+
+### Reflection
+
+# Fancy LED
+
+### Description
+
+### Evidence
+
+### Image
+
+### Reflection
+
 
