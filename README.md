@@ -5,7 +5,7 @@
 # Table of Contents
 ===================
 * [Table of Contents](#Table-of-Contents)
-* [Hello Circuit python](#Hello Circuit Python)
+* [Hello Circuit python](#Hello-Circuit-Python)
 * [Circuit python servo](#circuit python servo)
 * [circuit python LCD](#circuit python LCD)
 * [circuit python distance sensor](#circuit python distance sensor)
@@ -17,7 +17,6 @@
 
 
 # Hello Circuit Python
-======================
 
 ### Description 
 Introduction to circuit python. uploading Caret and begel term and using the metro express board. 
