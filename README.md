@@ -38,26 +38,38 @@ while True:
 ### Image
 ![ledblink](circuit-python-/ledblink.mp4)
 
-
 ### Reflection
 This was very confusing and it is hard to make the code work on my board, I am not sure if I am doing this right. 
 My beagel term does not do the same thing as it shows in the video. I am not sure how to load an image of the work I have done. 
 When I opened my caret ap, it did not have the main.py file, not sure what I may be doing wrong. 
-
 
 # Circuit python servo
 
 ### Description- 
 
 ### Evidence
-
-
+```import time
+import board
+import pulseio
+from adafruit_motor import servo
+ 
+# create a PWMOut object on Pin A2.
+pwm = pulseio.PWMOut(board.A2, duty_cycle=2 ** 15, frequency=50)
+ 
+# Create a servo object, my_servo.
+my_servo = servo.Servo(pwm)
+ 
+while True:
+    for angle in range(0, 180, 10):  # 0 - 180 degrees, 5 degrees at a time.
+        my_servo.angle = angle
+        time.sleep(0.05)
+    for angle in range(180, 0, -10): # 180 - 0 degrees, 5 degrees at a time.
+        my_servo.angle = angle
+        time.sleep(0.05)
+```        
 ### Image
 
-
-
 ### Reflection
-
 
 # Circiut python LCD
 
@@ -97,9 +109,6 @@ while True:
     lcd.clear()
 ```
 ### Image
-
-
-
 
 ### Reflection
 
@@ -205,7 +214,7 @@ when your hand is 35cm away from the ultorsoundic sencor then the light is green
           self.led3.value = False
  ```
 ### Image
-
+[![RGD Project](/photos/IMG_0081_Preview.png)](/photos/IMG_0081.MOV)
 ### Reflection
 I learrned that we needed make sure we had cases for all distances frorm the sensor or else the board would not work.
 
@@ -348,7 +357,7 @@ class FancyLED(object):
 ```            
 
 ### Image
-
+[![Fancy LED Project](/photos/IMG_0081_Preview.png)](/photos/IMG_0081.MOV)
 ### Reflection
 It was really hard to code so i used google and it helped a lot. The wiring was also kinda hard so i used google to help me wire. 
 
