@@ -1,4 +1,4 @@
-# Circuit-python-
+# Circuit-python
 
 
 ---
@@ -116,10 +116,8 @@ when your hand is 35cm away from the ultorsoundic sencor then the light is green
 ### Image
 ![distance sensor wiring](/photos/Ultrasonic-Sensor-Cirucit-Schematics-04.png)
 
-
-
 ### Reflection
-
+I learrned that we needed make sure we had cases for all distances frorm the sensor or else the board would not work.
 
 # Classs, Objects, Modules 
 
@@ -244,7 +242,79 @@ while True:
     fancy1.chase()
     #fancy2.sparkle()
 ```
+```from digitalio import DigitalInOut, Direction
+import board
+import time
+import random
 
+a = 0
+b = 0
+c = 0
+d = 0
+option = [True, False]
+
+class FancyLED(object):
+    def __init__(self, one, two, three):
+    # the two sets of LEDs are initalized with the three pins of the individual LEDs
+        self.LED1 = DigitalInOut(one)
+        self.LED1.direction = Direction.OUTPUT
+        self.LED2 = DigitalInOut(two)
+        self.LED2.direction = Direction.OUTPUT
+        self.LED3 = DigitalInOut(three)
+        self.LED3.direction = Direction.OUTPUT
+
+    def alternate(self):
+        for a in range (0, 5, 1):
+            self.LED1.value = True
+            self.LED2.value = False
+            self.LED3.value = True
+            time.sleep(0.5)
+            self.LED1.value = False
+            self.LED2.value = True
+            self.LED3.value = False
+            time.sleep(0.5)
+            a = a + 1
+
+    def blink (self):
+        for b in range (0, 5, 1):
+            self.LED1.value = True
+            self.LED2.value = True
+            self.LED3.value = True
+            time.sleep (0.5)
+            self.LED1.value = False
+            self.LED2.value = False
+            self.LED3.value = False
+            time.sleep (0.5)
+            b = b + 1
+
+    def chase (self):
+        for c in range (0, 5, 1):
+            self.LED1.value = True
+            self.LED2.value = False
+            self.LED3.value = False
+            time.sleep (0.5)
+            self.LED1.value = False
+            self.LED2.value = True
+            self.LED3.value = False
+            time.sleep (0.5)
+            self.LED1.value = False
+            self.LED2.value = False
+            self.LED3.value = True
+            time.sleep (1)
+            c = c + 1
+
+    def sparkle (self):
+        for d in range (0, 20, 1):
+        # loop runs 20 times instead of 5
+            self.LED1.value = random.choice (option)
+            self.LED2.value = random.choice (option)
+            self.LED3.value = random.choice (option)
+            time.sleep (0.3)
+            self.LED1.value = False
+            self.LED2.value = False
+            self.LED3.value = False
+            d = d + 1
+```            
 
 ### Image
 
