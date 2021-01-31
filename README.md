@@ -61,7 +61,7 @@ When I opened my caret ap, it did not have the main.py file, not sure what I may
 
 # Circiut python LCD
 
-### Description- 
+### Description 
 
 ### Evidence
 ```
@@ -106,13 +106,44 @@ while True:
 
 # Circiut python distance sensor
 
-### Description- 
+### Description 
 * when your hand is 27.5cm away from the ultorsoundic sencor then the light is teal
 * when your hand is 30cm away from the ultorsoundic sencor then the light is green\teal
 * when your hand is 35cm away from the ultorsoundic sencor then the light is green
 
 ### Evidence
+```# Write your code here :-)
+import time
+import board
+import simpleio
+import neopixel
+import adafruit_hcsr04
 
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D5, echo_pin=board.D6)
+RED = 0;
+GREEN = 0;
+BLUE = 0;
+
+pixel = neopixel.NeoPixel(board.NEOPIXEL,1)
+
+while True:
+    #pixel.fill((RED,GREEN,BLUE))
+    if sonar.distance >=5 and sonar.distance <=20:
+        RED = simpleio.map_range(sonar.distance,5,20,255,0)
+        GREEN = 0
+        BLUE = simpleio.map_range(sonar.distance,5,20,0,255)
+    elif sonar.distance > 20 and sonar.distance <= 35:
+        RED = 0
+        GREEN = simpleio.map_range(sonar.distance,20,35,0,255)
+        BLUE = simpleio.map_range(sonar.distance,20,35,255,0)
+    else:
+       RED = 255
+       GREEN = 255
+       BLUE = 255
+    pixel.fill((RED,GREEN,BLUE))
+    print(sonar.distance)
+    time.sleep(0.5)
+```    
 ### Image
 [![distance sensor wiring](/photos/Ultrasonic-Sensor-Cirucit-Schematics-04.png)](/photos/IMG_0079.MOV)
 
