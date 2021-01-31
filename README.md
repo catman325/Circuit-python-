@@ -9,6 +9,7 @@
 * [circuit python LCD](#circuit python LCD)
 * [circuit python distance sensor](#circuit python distance sensor)
 * [circuit python photointerrupters](#circuit python photointerrupters)
+* [circuit python Classes, Object, Modues](#Classs, Objects, Modules)
 * [fancy LED](#fancy LED)
 
 
@@ -57,7 +58,7 @@ When I opened my caret ap, it did not have the main.py file, not sure what I may
 ### Reflection
 
 
-## Circiut python LCD
+# Circiut python LCD
 
 ### Description- 
 
@@ -102,7 +103,7 @@ while True:
 ### Reflection
 
 
-## Circiut python distance sensor
+# Circiut python distance sensor
 
 ### Description- 
 when your hand is 27.5cm away from the ultorsoundic sencor then the light is teal
@@ -110,8 +111,6 @@ when your hand is 30cm away from the ultorsoundic sencor then the light is green
 when your hand is 35cm away from the ultorsoundic sencor then the light is green
 
 ### Evidence
-
-
 
 ### Image
 ![distance sensor wiring](/photos/Ultrasonic-Sensor-Cirucit-Schematics-04.png)
@@ -121,12 +120,51 @@ when your hand is 35cm away from the ultorsoundic sencor then the light is green
 ### Reflection
 
 
-## 
+# Classs, Objects, Modules 
 
 ### Description- 
 
 ### Evidence
+```# you don't need an __init__ method, but it is common for stuff that runs at instantiaion
+     def __init__(self, red, green, blue):
+          self.led1 = DigitalInOut(red)
+          self.led1.direction = Direction.OUTPUT
+          self.led2 = DigitalInOut(green)
+          self.led2.direction = Direction.OUTPUT
+          self.led3 = DigitalInOut(blue)
+          self.led3.direction = Direction.OUTPUT
 
+     #
+     def red(self):
+          self.led1.value = True
+          self.led2.value = False
+          self.led3.value = False
+
+     def green(self):
+          self.led1.value = False
+          self.led2.value = True
+          self.led3.value = False
+
+    def blue(self):
+          self.led1.value = False
+          self.led2.value = False
+          self.led3.value = True
+
+    def cyan(self):
+          self.led1.value = False
+          self.led2.value = True
+          self.led3.value = True
+
+    def magenta(self):
+          self.led1.value = True
+          self.led2.value = False
+          self.led3.value = True
+
+    def yellow(self):
+          self.led1.value = True
+          self.led2.value = True
+          self.led3.value = False
+ ```
 
 ### Image
 
