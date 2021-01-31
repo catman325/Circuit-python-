@@ -62,8 +62,38 @@ When I opened my caret ap, it did not have the main.py file, not sure what I may
 ### Description- 
 
 ### Evidence
+'''
+import time
+import board
+import analogio
+from lcd.lcd import LCD
+from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
+# some LCDs are 0x3f... some are 0x27.
+lcd = LCD(I2CPCF8574Interface(0x27), num_rows=2, num_cols=16)
+count = 0 # initialize count
+input1_touched = False
+input2_touched = False
 
+# define inputs used for touch
+AI1 = analogio.AnalogIn(board.A1) # upcounter input
+AI2 = analogio.AnalogIn(board.A2) # downcounter input
 
+while True:
+    if AI1.value > 45000 and not input1_touched:
+        count += 1
+        input1_touched = True
+    elif AI1.value < 45000:
+        input1_touched = False
+    if AI2.value > 45000 and not input2_touched:
+        count -= 1
+        input2_touched = True
+    elif AI2.value < 45000:
+        input2_touched = False
+    msg = "Count:" + str(count)
+    lcd.print(msg)
+    time.sleep(1)
+    lcd.clear()
+'''
 ### Image
 
 
