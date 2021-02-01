@@ -112,6 +112,45 @@ while True:
 ### Reflection
 It was hard to get it to consistant values when touching the wires. the count would not update as expected.
 
+
+# Circiut python Photointerruptor
+
+### Description
+
+
+### Evidence
+```import time
+import board
+import digitalio
+
+count = 0
+filled = False
+
+initial = time.monotonic()  # Time in seconds since power on
+
+button = digitalio.DigitalInOut(board.D7)
+button.direction = digitalio.Direction.INPUT
+button.pull = digitalio.Pull.UP
+
+while True:
+    now = time.monotonic()
+    msg = "The number of interrupts is:" + str(count)
+    if button.value == True and not filled:
+        count += 1
+        filled = True
+    elif button.value == False:
+        filled = False
+    if now - initial == 4: # print value every 4 seconds
+        print(msg)
+        initial = now```
+        
+
+### Image
+
+### Reflection
+you don't use sleep instead you use time.monotonic()
+
+
 # Circuit python distance sensor
 
 ### Description 
