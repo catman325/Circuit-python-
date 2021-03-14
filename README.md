@@ -413,7 +413,7 @@ It was really hard to code so i used google and it helped a lot. The wiring was 
 # Robot Arm
 
 ### Description
-'''
+
 ### Evidence
 
     # Robot Arm Project
@@ -449,7 +449,7 @@ It was really hard to code so i used google and it helped a lot. The wiring was 
         rpm = 20
         servo.throttle = simpleio.map_range(rpm, 0.0, 20.0, 1.0, 0.0)
     time.sleep(0.1)
-'''
+
 ### Image
 
 ### Reflection
