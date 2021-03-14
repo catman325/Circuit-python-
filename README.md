@@ -413,7 +413,7 @@ It was really hard to code so i used google and it helped a lot. The wiring was 
 # Robot Arm
 
 ### Description
-
+*the closer you move your hand to the ultrosoundic scensior the faster the 5 wheels spin
 ### Evidence
 All of the gears are wired to the same pin on the metro board
 
@@ -452,7 +452,8 @@ All of the gears are wired to the same pin on the metro board
     time.sleep(0.1)
 
 ### Image
-
+[![Robot Arm Project](/photos/RobotArm1.png)]
 ### Reflection
-
+*I learned how to coppy a scketch and then edit it 
+* I learned how to put a disk in a hole and center it
 
