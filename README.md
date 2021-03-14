@@ -452,7 +452,9 @@ All of the gears are wired to the same pin on the metro board
     time.sleep(0.1)
 
 ### Image
-[![Robot Arm Project](/photos/RobotArm1.png)]
+![Robot Arm Project1](/photos/RobotArm1.png)
+![Robot Arm Project2](/photos/RobotArm2.png)
+![Robot Arm Project3](/photos/RobotArm3.png)
 ### Reflection
 *I learned how to coppy a scketch and then edit it 
 * I learned how to put a disk in a hole and center it
