@@ -415,6 +415,7 @@ It was really hard to code so i used google and it helped a lot. The wiring was 
 ### Description
 
 ### Evidence
+All of the gears are wired to the same pin on the metro board
 
     # Robot Arm Project
     # Revision 1 - 210313
