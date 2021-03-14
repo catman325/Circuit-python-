@@ -416,6 +416,40 @@ It was really hard to code so i used google and it helped a lot. The wiring was 
 
 ### Evidence
 
+'''# Robot Arm Project
+    # Revision 1 - 210313
+    import board
+    import time
+    import adafruit_hcsr04
+    import pulseio
+    import simpleio
+    from adafruit_motor import servo
+    # define distance sensor used to control servos
+    hcsr04 = adafruit_hcsr04.HCSR04(trigger_pin = board.D5, echo_pin = board.D6)
+
+    # Create a PWMOut objects
+    pwm_A2 = pulseio.PWMOut(board.A2, frequency=50)
+
+    # Object instance for pin
+    servo = servo.ContinuousServo(pwm_A2)
+
+    while True:
+    # Set speed of servos dependant on distance away from sensor
+    # As object gets closer to HCSR04 speed increases
+    try:
+        if hcsr04.distance > 20.0:
+            rpm = 20
+            servo.throttle = simpleio.map_range(rpm, 0.0, 20.0, 1.0, 0.0)
+
+        elif hcsr04.distance < 20.0:
+            rpm = simpleio.map_range(hcsr04.distance, 0.0, 20.0, 1.0, 0.0)
+            servo.throttle = rpm
+
+    except RuntimeError:
+        rpm = 20
+        servo.throttle = simpleio.map_range(rpm, 0.0, 20.0, 1.0, 0.0)
+    time.sleep(0.1)
+'''
 ### Image
 
 ### Reflection
